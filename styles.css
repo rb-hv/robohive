@@ -1,0 +1,61 @@
+body {
+    background-color: beige;
+    font-weight: 200;
+    font-family: 'Segoe UI', 'sans-serif';
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 14px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+h1 {
+    position: relative;
+    z-index: 1001; 
+    text-align: left;
+    padding-left: 10px;
+}
+
+audio {
+    padding-top: 60px;
+}
+
+h1#OurTeamhead {
+    padding-top: 20px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+p#Team {
+    padding-left: 20px;
+}
+
+ul#team {
+    padding-left: 20px;
+}
