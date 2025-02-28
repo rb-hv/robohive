@@ -31,6 +31,23 @@ nav ul li a {
     display: block;
 }
 
+#play {
+    background-color: beige;
+    color: beige;
+    border: none;
+    padding: 7px 12px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 9px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#play:hover {
+    background-color: black;
+    color: beige;
+}
 nav ul li a:hover {
     background-color: #575757;
 }
