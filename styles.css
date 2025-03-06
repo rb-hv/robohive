@@ -55,7 +55,7 @@ nav ul li a:hover {
 h1 {
     position: relative;
     z-index: 1001; 
-    text-align: left;
+    text-align: middle;
     padding-left: 10px;
 }
 
