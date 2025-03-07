@@ -1,7 +1,7 @@
 body {
     background-color: beige;
     font-weight: 200;
-    font-family: 'Segoe UI', 'sans-serif';
+    font-family: 'Monaco', 'Courier New', Courier, monospace;
     font-size: medium;
     margin: 0;
     padding: 0;
@@ -48,6 +48,7 @@ nav ul li a {
     background-color: black;
     color: beige;
 }
+
 nav ul li a:hover {
     background-color: #575757;
 }
@@ -55,7 +56,7 @@ nav ul li a:hover {
 h1 {
     position: relative;
     z-index: 1001; 
-    text-align: middle;
+    text-align: center;
     padding-left: 10px;
 }
 
@@ -66,13 +67,20 @@ audio {
 h1#OurTeamhead {
     padding-top: 70px;
     padding-left: 10px;
-    text-align: left;
+    text-align: center;
 }
 
 p#Team {
     padding-left: 10px;
+    text-align: center;
 }
 
 ul#team {
     padding-left: 10px;
+    text-align: center;
+}
+
+p#Teamblurb {
+    padding-left: 10px;
+    text-align: center;
 }
