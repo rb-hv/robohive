@@ -1,3 +1,4 @@
+/* styles.css*/
 body {
     background-color: beige;
     font-weight: 200;
@@ -82,5 +83,29 @@ ul#team {
 
 p#Teamblurb {
     padding-left: 10px;
+    text-align: center;
+}
+
+p#index_blurb {
+    text-align: center;
+}
+
+ul#index_pc {
+    text-align: center;
+}
+
+p#Robot_intro {
+    text-align: center;
+}
+
+h2#Attachments {
+    text-align: center;
+}
+
+p#Attachment_blurb {
+    text-align: center;
+}
+
+ul#at_list {
     text-align: center;
 }
