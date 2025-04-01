@@ -1,6 +1,6 @@
 /* styles.css*/
 body {
-    background-color: beige;
+    background-color: rgb(8, 8, 65);
     font-weight: 200;
     font-family: 'Monaco', 'Courier New', Courier, monospace;
     font-size: medium;
@@ -9,7 +9,7 @@ body {
 }
 
 nav {
-    background-color: #333;
+    background-color: rgb(255, 249, 75);
     overflow: hidden;
     width: 100%;
 }
@@ -27,14 +27,16 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     display: block;
 }
 
+
+
 #play {
-    background-color: beige;
-    color: beige;
+    background-color: rgb(8, 8, 65);
+    color: rgb(8, 8, 65);
     border: none;
     padding: 7px 12px;
     position: relative;
@@ -55,6 +57,7 @@ nav ul li a:hover {
 }
 
 h1 {
+    color: white;
     position: relative;
     z-index: 1001; 
     text-align: center;
@@ -66,46 +69,77 @@ audio {
 }
 
 h1#OurTeamhead {
+    color: white;
     padding-top: 70px;
     padding-left: 10px;
     text-align: center;
 }
 
 p#Team {
+    color: white;
     padding-left: 10px;
     text-align: center;
 }
 
 ul#team {
+    color: white;
     padding-left: 10px;
     text-align: center;
 }
 
 p#Teamblurb {
+    color: white;
     padding-left: 10px;
     text-align: center;
 }
 
 p#index_blurb {
+    color: white;
     text-align: center;
 }
 
 ul#index_pc {
+    color: white;
     text-align: center;
 }
 
 p#Robot_intro {
+    color: white;
     text-align: center;
 }
 
 h2#Attachments {
+    color: white;
     text-align: center;
 }
 
 p#Attachment_blurb {
+    color: white;
     text-align: center;
 }
 
 ul#at_list {
+    color: white;   
     text-align: center;
 }
+
+button#Donations {
+    background-color: rgb(101, 233, 233);
+    font-family:"Monaco", "Courier New", Courier, monospace;
+    padding: 14px 24px;
+    font-size: 20px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+button#Donations:hover {
+    background-color: rgb(151, 151, 212);
+}
+
+h2#Donate_header {
+    color: white;
+    text-align: center;
+}
+
