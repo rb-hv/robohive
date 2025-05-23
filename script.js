@@ -5,3 +5,10 @@ document.addEventListener('DOMContentLoaded', function() {
       audioElement.play();
   });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  const button = document.getElementById('Donations');
+  button.addEventListener('click', function() {
+    window.location.href = 'https://www.vancoevents.com/us/donate/heritagerobotics'; 
+  });
+});
