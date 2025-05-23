@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
       var audioElement = document.getElementById('audioElement');
       audioElement.style.display = 'block';
       audioElement.play();
-    alert("imagine getting rick rolled :( hahahahaha")
+      alert("imagine getting rick rolled :( hahahahaha")
   });
 });
 
