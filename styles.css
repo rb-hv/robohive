@@ -1,4 +1,4 @@
-/* style.css*/
+/* styles.css */
 body {
     background-color: rgb(8, 8, 65);
     font-weight: 200;
@@ -31,8 +31,6 @@ nav ul li a {
     text-decoration: none;
     display: block;
 }
-
-
 
 #play {
     background-color: rgb(8, 8, 65);
@@ -143,3 +141,15 @@ h2#Donate_header {
     text-align: center;
 }
 
+/* MODIFIED IFRAME STYLES BELOW */
+iframe#countdown {
+    width: 70%;                /* Take up 90% of the available width */
+    max-width: 700px;          /* Prevent it from becoming too wide on large screens */
+    height: auto;              /* Let aspect-ratio control height */
+    aspect-ratio: 16 / 7;      /* Maintain the 16:7 aspect ratio */
+    background-color: #007FFF; /* Background color as specified */
+    border-radius: 5px;        /* Rounded corners as specified */
+    border: 0;                 /* Remove any default iframe border */
+    display: block;            /* Important: iframe needs to be a block element for margin: auto to work */
+    margin: 20px auto;         /* Centers horizontally and adds 20px top/bottom margin */
+}
